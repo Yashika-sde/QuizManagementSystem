@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="471.0" prefWidth="673.0" style="-fx-background-color: #A78BFA;" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Adminpage.AdminpageController">
+   <left>
+      <VBox prefHeight="280.0" prefWidth="219.0" style="-fx-background-color: black;" BorderPane.alignment="CENTER">
+         <BorderPane.margin>
+            <Insets top="2.0" />
+         </BorderPane.margin>
+         <children>
+            <Button mnemonicParsing="false" onAction="#userdash" prefHeight="87.0" prefWidth="219.0" style="-fx-background-color: black;" text="Manage Users" textFill="#fffefe">
+               <font>
+                  <Font name="System Italic" size="14.0" />
+               </font>
+            </Button>
+            <Button layoutX="10.0" layoutY="10.0" mnemonicParsing="false" onAction="#questionbank" prefHeight="93.0" prefWidth="219.0" style="-fx-background-color: black;" text="Manage Questions" textFill="#f8f6f6">
+               <font>
+                  <Font name="System Italic" size="13.0" />
+               </font>
+            </Button>
+            <Button layoutX="10.0" layoutY="49.0" mnemonicParsing="false" onAction="#leaderboard" prefHeight="84.0" prefWidth="219.0" style="-fx-background-color: black;" text="Score Board" textFill="#f5f4f4">
+               <font>
+                  <Font size="13.0" />
+               </font>
+            </Button>
+            <Button layoutX="10.0" layoutY="88.0" mnemonicParsing="false" onAction="#close" prefHeight="88.0" prefWidth="219.0" style="-fx-background-color: black;" text="Logout" textFill="#fffefe">
+               <font>
+                  <Font size="13.0" />
+               </font>
+            </Button>
+         </children>
+      </VBox>
+   </left>
+   <top>
+      <AnchorPane prefHeight="118.0" prefWidth="600.0" style="-fx-background-color: black;" BorderPane.alignment="CENTER">
+         <children>
+            <Label layoutX="206.0" layoutY="26.0" prefHeight="58.0" prefWidth="283.0" text="Admin Dashboard" textFill="#fcf8f8">
+               <font>
+                  <Font name="Times New Roman Bold Italic" size="36.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="74.0" fitWidth="83.0" layoutX="132.0" layoutY="18.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@Adminpic.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+   </top>
+   <center>
+      <Label prefHeight="47.0" prefWidth="317.0" text="Welcome to Admin Dashboard!" BorderPane.alignment="CENTER">
+         <font>
+            <Font name="Times New Roman" size="24.0" />
+         </font>
+      </Label>
+   </center>
+</BorderPane>

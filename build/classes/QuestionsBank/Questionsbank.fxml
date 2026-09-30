@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.SplitPane?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<SplitPane dividerPositions="0.16917922948073702" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" orientation="VERTICAL" prefHeight="599.0" prefWidth="797.0" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1" fx:controller="QuestionsBank.QuestionsbankController">
+  <items>
+    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="231.0" prefWidth="728.0" style="-fx-background-color: #A78BFA;">
+         <children>
+            <Label layoutX="262.0" layoutY="14.0" prefHeight="54.0" prefWidth="315.0" text="Question Bank" textFill="#141414">
+               <font>
+                  <Font name="Times New Roman Bold Italic" size="48.0" />
+               </font></Label>
+            <ImageView fitHeight="54.0" fitWidth="78.0" layoutX="167.0" layoutY="20.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@questions.png" />
+               </image>
+            </ImageView>
+         </children></AnchorPane>
+    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="387.0" prefWidth="795.0" style="-fx-background-color: black;">
+         <children>
+            <Button layoutX="625.0" layoutY="217.0" mnemonicParsing="false" onAction="#Add" prefHeight="42.0" prefWidth="106.0" style="-fx-background-radius: 20; -fx-background-color: #778899;" text="Add" textFill="#f8f4f4">
+               <font>
+                  <Font name="Times New Roman Bold Italic" size="18.0" />
+               </font>
+            </Button>
+            <Button layoutX="625.0" layoutY="280.0" mnemonicParsing="false" onAction="#Edit" prefHeight="40.0" prefWidth="106.0" style="-fx-background-radius: 20; -fx-background-color: #778899;" text="Edit" textFill="#fffdfd">
+               <font>
+                  <Font name="Times New Roman Bold Italic" size="18.0" />
+               </font></Button>
+            <Button layoutX="625.0" layoutY="348.0" mnemonicParsing="false" onAction="#Delete" prefHeight="40.0" prefWidth="106.0" style="-fx-background-radius: 20; -fx-background-color: #778899;" text="Delete" textFill="#f5f3f3">
+               <font>
+                  <Font name="Times New Roman Bold Italic" size="18.0" />
+               </font>
+            </Button>
+            <Button layoutX="625.0" layoutY="411.0" mnemonicParsing="false" onAction="#Clear" prefHeight="40.0" prefWidth="106.0" style="-fx-background-radius: 20; -fx-background-color: #778899;" text="Clear" textFill="#f2ecec">
+               <font>
+                  <Font name="Times New Roman Bold Italic" size="18.0" />
+               </font>
+            </Button>
+            <TextField fx:id="question" layoutX="111.0" layoutY="147.0" prefHeight="31.0" prefWidth="642.0" promptText="Enter question">
+               <font>
+                  <Font name="System Italic" size="13.0" />
+               </font></TextField>
+            <Label layoutX="29.0" layoutY="103.0" prefHeight="31.0" prefWidth="106.0" text="Question:" textFill="#f5f4f4">
+               <font>
+                  <Font name="Times New Roman Bold Italic" size="24.0" />
+               </font>
+            </Label>
+            <Label layoutX="29.0" layoutY="189.0" text="Options:" textFill="#f8f6f6">
+               <font>
+                  <Font name="Times New Roman Bold Italic" size="24.0" />
+               </font>
+            </Label>
+            <TextField fx:id="op1" layoutX="111.0" layoutY="231.0" prefHeight="31.0" prefWidth="369.0" promptText="Enter Option 1" />
+            <TextField fx:id="op2" layoutX="111.0" layoutY="269.0" prefHeight="31.0" prefWidth="369.0" promptText="Enter Option 2" />
+            <TextField fx:id="op3" layoutX="111.0" layoutY="312.0" prefHeight="31.0" prefWidth="369.0" promptText="Enter Option 3" />
+            <TextField fx:id="op4" layoutX="111.0" layoutY="352.0" prefHeight="31.0" prefWidth="369.0" promptText="Enter Option 4" />
+            <Label layoutX="23.0" layoutY="391.0" text="Correct Answer:" textFill="#f8f6f6">
+               <font>
+                  <Font name="Times New Roman Bold Italic" size="24.0" />
+               </font>
+            </Label>
+            <TextField fx:id="copt" layoutX="111.0" layoutY="431.0" prefHeight="31.0" prefWidth="369.0" promptText="Correct Option" />
+            <Label layoutX="29.0" layoutY="26.0" prefHeight="31.0" prefWidth="145.0" text="Question id:" textFill="#f5f4f4">
+               <font>
+                  <Font name="Times New Roman Bold Italic" size="24.0" />
+               </font>
+            </Label>
+            <TextField fx:id="qid" layoutX="111.0" layoutY="64.0" prefHeight="31.0" prefWidth="369.0" promptText="Enter your qid" />
+            <Button layoutX="625.0" layoutY="53.0" mnemonicParsing="false" onAction="#Search" prefHeight="42.0" prefWidth="106.0" style="-fx-background-radius: 20; -fx-background-color: #778899;" text="Search" textFill="#f8f4f4">
+               <font>
+                  <Font name="Times New Roman Bold Italic" size="18.0" />
+               </font>
+            </Button>
+         </children></AnchorPane>
+  </items>
+</SplitPane>

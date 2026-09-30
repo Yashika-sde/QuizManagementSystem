@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="583.0" prefWidth="745.0" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1" fx:controller="LeaderBoard.LeaderboardController">
+   <children>
+      <AnchorPane layoutX="124.0" layoutY="93.0" opacity="0.93" prefHeight="462.0" prefWidth="525.0" style="-fx-background-color: #7C3AED; -fx-border-color: black; -fx-border-width: 3;">
+         <children>
+            <Label fx:id="l1" layoutX="143.0" layoutY="59.0" prefHeight="49.0" prefWidth="362.0" textFill="#fffefe">
+               <font>
+                  <Font name="Ink Free" size="36.0" />
+               </font>
+            </Label>
+            <Label fx:id="l5" layoutX="149.0" layoutY="265.0" prefHeight="49.0" prefWidth="355.0" textFill="#fffefe">
+               <font>
+                  <Font name="Ink Free" size="36.0" />
+               </font>
+            </Label>
+            <Label fx:id="l4" layoutX="143.0" layoutY="215.0" prefHeight="49.0" prefWidth="362.0" textFill="#fffefe">
+               <font>
+                  <Font name="Ink Free" size="36.0" />
+               </font>
+            </Label>
+            <Label fx:id="l3" layoutX="143.0" layoutY="157.0" prefHeight="49.0" prefWidth="362.0" textFill="#fffefe">
+               <font>
+                  <Font name="Ink Free" size="36.0" />
+               </font>
+            </Label>
+            <Label fx:id="l2" layoutX="143.0" layoutY="108.0" prefHeight="49.0" prefWidth="362.0" textFill="#fffefe">
+               <font>
+                  <Font name="Ink Free" size="36.0" />
+               </font>
+            </Label>
+            <Label fx:id="l6" layoutX="149.0" layoutY="318.0" prefHeight="49.0" prefWidth="355.0" textFill="#fffefe">
+               <font>
+                  <Font name="Ink Free" size="36.0" />
+               </font>
+            </Label>
+            <Label fx:id="l7" layoutX="149.0" layoutY="374.0" prefHeight="49.0" prefWidth="355.0" textFill="#fffefe">
+               <font>
+                  <Font name="Ink Free" size="36.0" />
+               </font>
+            </Label>
+            <Circle fill="#ff1fb8" layoutX="101.0" layoutY="92.0" radius="8.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fill="#ff1fb8" layoutX="93.0" layoutY="141.0" radius="8.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fill="#ff1fb8" layoutX="109.0" layoutY="141.0" radius="8.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fill="#ff1fb8" layoutX="93.0" layoutY="190.0" radius="8.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fill="#ff1fb8" layoutX="109.0" layoutY="190.0" radius="8.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fill="#ff1fb8" layoutX="101.0" layoutY="198.0" radius="8.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fill="#ff1fb8" layoutX="93.0" layoutY="239.0" radius="8.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fill="#ff1fb8" layoutX="109.0" layoutY="239.0" radius="8.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fill="#ff1fb8" layoutX="101.0" layoutY="247.0" radius="8.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fill="#ff1fb8" layoutX="117.0" layoutY="247.0" radius="8.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fill="#ff1fb8" layoutX="95.0" layoutY="289.0" radius="8.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fill="#ff1fb8" layoutX="101.0" layoutY="297.0" radius="8.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fill="#ff1fb8" layoutX="109.0" layoutY="289.0" radius="8.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fill="#ff1fb8" layoutX="125.0" layoutY="289.0" radius="8.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fill="#ff1fb8" layoutX="117.0" layoutY="297.0" radius="8.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fill="#ff1fb8" layoutX="95.0" layoutY="338.0" radius="8.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fill="#ff1fb8" layoutX="103.0" layoutY="350.0" radius="8.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fill="#ff1fb8" layoutX="111.0" layoutY="361.0" radius="8.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fill="#ff1fb8" layoutX="109.0" layoutY="338.0" radius="8.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fill="#ff1fb8" layoutX="123.0" layoutY="338.0" radius="8.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fill="#ff1fb8" layoutX="117.0" layoutY="350.0" radius="8.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fill="#ff1fb8" layoutX="95.0" layoutY="394.0" radius="8.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fill="#ff1fb8" layoutX="103.0" layoutY="406.0" radius="8.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fill="#ff1fb8" layoutX="103.0" layoutY="422.0" radius="8.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fill="#ff1fb8" layoutX="109.0" layoutY="394.0" radius="8.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fill="#ff1fb8" layoutX="117.0" layoutY="406.0" radius="8.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fill="#ff1fb8" layoutX="125.0" layoutY="394.0" radius="8.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fill="#ff1fb8" layoutX="119.0" layoutY="422.0" radius="8.0" stroke="BLACK" strokeType="INSIDE" />
+         </children>
+         <effect>
+            <DropShadow height="102.59" radius="47.13" width="87.93" />
+         </effect>
+      </AnchorPane>
+      <AnchorPane layoutX="220.0" layoutY="24.0" prefHeight="87.0" prefWidth="333.0" style="-fx-background-color: #7C3AED; -fx-border-color: black; -fx-border-width: 3;" />
+      <AnchorPane layoutX="230.0" layoutY="34.0" prefHeight="87.0" prefWidth="333.0" style="-fx-background-color: #7C3AED; -fx-border-color: black; -fx-border-width: 3;">
+         <children>
+            <Label layoutX="47.0" layoutY="23.0" prefHeight="30.0" prefWidth="257.0" style="-fx-alignment: center;" text="LeaderBoard" textFill="#fffefe" underline="true">
+               <font>
+                  <Font name="Times New Roman Bold Italic" size="36.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="49.0" fitWidth="56.0" layoutX="13.0" layoutY="18.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@Price.jpg" />
+               </image>
+            </ImageView>
+         </children>
+         <effect>
+            <DropShadow height="76.21" radius="39.06999999999999" width="82.07" />
+         </effect>
+      </AnchorPane>
+      <Button layoutX="45.0" layoutY="29.0" mnemonicParsing="false" onAction="#Back" prefHeight="30.0" prefWidth="86.0" style="-fx-background-color: #7C3AED; -fx-border-color: black; -fx-border-width: 0 3 3 0;" text="&lt;&lt; Back" textFill="#f8f5f5">
+         <font>
+            <Font name="Times New Roman Bold Italic" size="14.0" />
+         </font>
+         <effect>
+            <DropShadow height="76.21" radius="34.6725" width="64.48" />
+         </effect>
+      </Button>
+   </children>
+</AnchorPane>

@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.Glow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="619.0" prefWidth="680.0" style="-fx-background-color: #A78BFA;" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1" fx:controller="quizmanagement.FXMLDocumentController">
+   <children>
+       <AnchorPane layoutX="-4.0" opacity="0.93" prefHeight="99.0" prefWidth="687.0" style="-fx-background-color: #7C3AED;">
+         <children>
+            <ImageView fitHeight="48.0" fitWidth="52.0" layoutX="133.0" layoutY="28.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@multi.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="198.0" layoutY="33.0" prefHeight="37.0" prefWidth="252.0" text="User Registrations" textFill="#fcf7f7">
+               <font>
+                  <Font name="Times New Roman Bold Italic" size="32.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <Label layoutX="102.0" layoutY="190.0" prefHeight="37.0" prefWidth="140.0" text="UserName:" textFill="#f8f8f8">
+         <font>
+            <Font name="Times New Roman Bold Italic" size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="103.0" layoutY="287.0" prefHeight="37.0" prefWidth="140.0" text="Password:" textFill="#f8f8f8">
+         <font>
+            <Font name="Times New Roman Bold Italic" size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="103.0" layoutY="237.0" prefHeight="37.0" prefWidth="140.0" text="Email-id:" textFill="#f8f8f8">
+         <font>
+            <Font name="Times New Roman Bold Italic" size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="103.0" layoutY="379.0" prefHeight="37.0" prefWidth="140.0" text="Age:" textFill="#f8f8f8">
+         <font>
+            <Font name="Times New Roman Bold Italic" size="24.0" />
+         </font>
+      </Label>
+      <TextField fx:id="full_name" layoutX="306.0" layoutY="146.0" prefHeight="25.0" prefWidth="324.0" promptText="enter your name" style="-fx-border-color: #7C3AED; -fx-border-width: 0 3 3 0;">
+         <font>
+            <Font size="13.0" />
+         </font>
+         <effect>
+            <Glow level="0.2" />
+         </effect>
+      </TextField>
+      <TextField fx:id="user_name" layoutX="306.0" layoutY="196.0" prefHeight="25.0" prefWidth="324.0" promptText="enter unique user name" style="-fx-border-color: #7C3AED; -fx-border-width: 0 3 3 0;">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </TextField>
+      <Label layoutX="102.0" layoutY="422.0" prefHeight="37.0" prefWidth="189.0" text="College name:" textFill="#f8f8f8">
+         <font>
+            <Font name="Times New Roman Bold Italic" size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="102.0" layoutY="140.0" prefHeight="37.0" prefWidth="140.0" text="FullName:" textFill="#f8f8f8">
+         <font>
+            <Font name="Times New Roman Bold Italic" size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="102.0" layoutY="336.0" prefHeight="37.0" prefWidth="197.0" text="Confirm Password:" textFill="#f8f8f8">
+         <font>
+            <Font name="Times New Roman Bold Italic" size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="102.0" layoutY="467.0" prefHeight="37.0" prefWidth="189.0" text="Year of Study:" textFill="#f8f8f8">
+         <font>
+            <Font name="Times New Roman Bold Italic" size="24.0" />
+         </font>
+      </Label>
+      <ComboBox fx:id="year" layoutX="306.0" layoutY="473.0" prefHeight="25.0" prefWidth="324.0" promptText="enter the current year of study" style="-fx-background-color: white; -fx-border-color: #7C3AED; -fx-border-width: 0 3 3 0;" visibleRowCount="4">
+         <effect>
+            <Glow />
+         </effect>
+      </ComboBox>
+      <Button layoutX="250.0" layoutY="536.0" mnemonicParsing="false" onAction="#reg_but" prefHeight="48.0" prefWidth="140.0" style="-fx-background-color: #7C3AED; -fx-background-radius: 20;" text="Register Now" textAlignment="JUSTIFY" textFill="#fcfafa" underline="true">
+         <font>
+            <Font name="Times New Roman Bold Italic" size="18.0" />
+         </font>
+      </Button>
+      <TextField fx:id="email_id" layoutX="306.0" layoutY="242.0" prefHeight="25.0" prefWidth="324.0" promptText="enter your email-id" style="-fx-border-color: #7C3AED; -fx-border-width: 0 3 3 0;">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="pass_key" layoutX="306.0" layoutY="292.0" prefHeight="25.0" prefWidth="324.0" promptText="enetr your password" style="-fx-border-color: #7C3AED; -fx-border-width: 0 3 3 0;">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="con_key" layoutX="306.0" layoutY="341.0" prefHeight="25.0" prefWidth="324.0" promptText="re-enter your password" style="-fx-border-color: #7C3AED; -fx-border-width: 0 3 3 0;">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="age" layoutX="306.0" layoutY="384.0" prefHeight="25.0" prefWidth="324.0" promptText="enter your age" style="-fx-border-color: #7C3AED; -fx-border-width: 0 3 3 0;">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="clg_name" layoutX="306.0" layoutY="427.0" prefHeight="25.0" prefWidth="324.0" promptText="enter your college name" style="-fx-border-color: #7C3AED; -fx-border-width: 0 3 3 0;">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </TextField>
+      <ImageView fitHeight="28.0" fitWidth="23.0" layoutX="510.0" layoutY="573.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@home.png" />
+         </image>
+      </ImageView>
+      <Button layoutX="544.0" layoutY="572.0" mnemonicParsing="false" onAction="#home" prefHeight="25.0" prefWidth="116.0" style="-fx-background-color: #7C3AED;" text="Go to Home---&gt;" textFill="#fcfafa">
+         <font>
+            <Font name="System Bold Italic" size="12.0" />
+         </font>
+      </Button>
+   </children>
+   <effect>
+      <Glow />
+   </effect>
+</AnchorPane>

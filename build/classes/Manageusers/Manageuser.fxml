@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.effect.InnerShadow?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="582.0" prefWidth="754.0" style="-fx-background-color: #A78BFA;" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Manageusers.ManageuserController">
+   <children>
+      <TableView fx:id="userTable" layoutX="48.0" layoutY="123.0" prefHeight="419.0" prefWidth="669.0" style="-fx-border-color: black; -fx-border-width: 5;">
+        <columns>
+          <TableColumn fx:id="colUid" prefWidth="46.0" text="Uid" />
+          <TableColumn fx:id="colFullname" minWidth="9.0" prefWidth="110.0" text="Full Name" />
+            <TableColumn fx:id="colUsername" minWidth="9.0" prefWidth="102.0" text="User Name" />
+            <TableColumn fx:id="colEmail" minWidth="9.0" prefWidth="149.0" text="Email" />
+            <TableColumn fx:id="colAge" minWidth="9.0" prefWidth="51.0" text="Age" />
+            <TableColumn fx:id="colCollege" minWidth="9.0" prefWidth="125.0" text="College" />
+            <TableColumn fx:id="colYearofStudy" minWidth="9.0" prefWidth="85.0" text="Year of Study" />
+        </columns>
+         <effect>
+            <InnerShadow choke="0.41" height="102.59" radius="52.260000000000005" width="108.45">
+               <color>
+                  <Color red="0.2966617941856384" green="0.10051169246435165" blue="0.3947368562221527" />
+               </color>
+            </InnerShadow>
+         </effect>
+      </TableView>
+      <Label layoutX="29.0" layoutY="30.0" prefHeight="46.0" prefWidth="266.0" text="User Details">
+         <font>
+            <Font name="Times New Roman Bold Italic" size="48.0" />
+         </font>
+      </Label>
+      <Line endX="-10.0" layoutX="29.0" layoutY="84.0" startX="555.0" />
+   </children>
+</AnchorPane>

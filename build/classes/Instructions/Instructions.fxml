@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<StackPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="681.0" prefWidth="725.0" style="-fx-background-color: #F9FAFB;" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Instructions.InstructionsController">
+   <children>
+      <VBox prefHeight="574.0" prefWidth="705.0" style="-fx-background-color: #EDE9FE;;">
+         <children>
+            <Label prefHeight="46.0" prefWidth="675.0" style="-fx-alignment: center;" text="Instructions" textFill="#f5f2f2">
+               <font>
+                  <Font name="Times New Roman Bold Italic" size="64.0" />
+               </font>
+            </Label>
+            <ScrollPane fitToHeight="true" fitToWidth="true" prefHeight="527.0" prefWidth="725.0">
+              <content>
+                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="200.0" prefWidth="200.0" />
+              </content>
+            </ScrollPane>
+         </children>
+      </VBox>
+      <AnchorPane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #A78BFA;">
+         <children>
+            <Button layoutX="173.0" layoutY="613.0" mnemonicParsing="false" onAction="#Back" prefHeight="47.0" prefWidth="130.0" style="-fx-background-color: #1E1B4B; -fx-border-color: white; -fx-border-width: 0 3 3 0;" text="Back" textFill="#fcf9f9">
+               <font>
+                  <Font name="Times New Roman Bold Italic" size="24.0" />
+               </font>
+            </Button>
+            <Label fx:id="instructs" layoutX="54.0" layoutY="119.0" prefHeight="338.0" prefWidth="574.0" textFill="#f2eeee" textOverrun="CLIP" wrapText="true">
+               <font>
+                  <Font name="Ink Free" size="24.0" />
+               </font>
+            </Label>
+            <Button layoutX="456.0" layoutY="613.0" mnemonicParsing="false" onAction="#Start_Test" prefHeight="47.0" prefWidth="143.0" style="-fx-background-color: #1E1B4B; -fx-border-color: white; -fx-border-width: 0 3 3 0;" text="Start Test" textFill="#fcf9f9">
+               <font>
+                  <Font name="Times New Roman Bold Italic" size="24.0" />
+               </font>
+            </Button>
+            <Label layoutX="216.0" layoutY="14.0" prefHeight="66.0" prefWidth="272.0" text="Instructions" textFill="#f8f6f6" underline="true">
+               <font>
+                  <Font name="Ink Free" size="48.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="99.0" fitWidth="91.0" layoutX="114.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@inspen.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="84.0" layoutY="153.0" prefHeight="22.0" prefWidth="563.0" text="1. Read all questions carefully before answering." textFill="#fcfafa">
+               <font>
+                  <Font name="Ink Free" size="24.0" />
+               </font>
+            </Label>
+            <Label layoutX="84.0" layoutY="186.0" prefHeight="22.0" prefWidth="563.0" text="2. Each question carries 1 mark." textFill="#fcfafa">
+               <font>
+                  <Font name="Ink Free" size="24.0" />
+               </font>
+            </Label>
+            <Label layoutX="84.0" layoutY="219.0" prefHeight="22.0" prefWidth="563.0" text="3. There is no negative marking." textFill="#fcfafa">
+               <font>
+                  <Font name="Ink Free" size="24.0" />
+               </font>
+            </Label>
+            <Label layoutX="84.0" layoutY="252.0" prefHeight="22.0" prefWidth="563.0" text="4. Once submitted, answers cannot be changed." textFill="#fcfafa">
+               <font>
+                  <Font name="Ink Free" size="24.0" />
+               </font>
+            </Label>
+            <Label layoutX="84.0" layoutY="285.0" prefHeight="33.0" prefWidth="609.0" text="5. Do not close or refresh the application during the test." textFill="#fcfafa">
+               <font>
+                  <Font name="Ink Free" size="24.0" />
+               </font>
+            </Label>
+            <Label layoutX="84.0" layoutY="318.0" prefHeight="22.0" prefWidth="563.0" text="6. The quiz has a fixed time limit." textFill="#fcfafa">
+               <font>
+                  <Font name="Ink Free" size="24.0" />
+               </font>
+            </Label>
+            <Label layoutX="84.0" layoutY="351.0" prefHeight="22.0" prefWidth="563.0" text="7. Clicking logout will end the test immediately." textFill="#fcfafa">
+               <font>
+                  <Font name="Ink Free" size="24.0" />
+               </font>
+            </Label>
+            <Label layoutX="84.0" layoutY="384.0" prefHeight="33.0" prefWidth="622.0" text="8. The quiz will auto-submit when the time limit is reached." textFill="#fcfafa">
+               <font>
+                  <Font name="Ink Free" size="24.0" />
+               </font>
+            </Label>
+            <Label layoutX="84.0" layoutY="417.0" prefHeight="22.0" prefWidth="563.0" text="9. Do not use any external resources during the test." textFill="#fcfafa">
+               <font>
+                  <Font name="Ink Free" size="24.0" />
+               </font>
+            </Label>
+            <Label layoutX="84.0" layoutY="450.0" prefHeight="22.0" prefWidth="563.0" text="10. Any suspicious activity may lead to disqualification." textFill="#fcfafa">
+               <font>
+                  <Font name="Ink Free" size="24.0" />
+               </font>
+            </Label>
+            <Label layoutX="84.0" layoutY="483.0" prefHeight="33.0" prefWidth="622.0" text="11. Make sure all questions are answered before submission." textFill="#fcfafa">
+               <font>
+                  <Font name="Ink Free" size="24.0" />
+               </font>
+            </Label>
+            <Label layoutX="84.0" layoutY="516.0" prefHeight="33.0" prefWidth="628.0" text="12. Contact the administrator in case of any technical issues." textFill="#fcfafa">
+               <font>
+                  <Font name="Ink Free" size="24.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+   </children>
+</StackPane>

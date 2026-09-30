@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/C:/Users/91934/Documents/NetBeansProjects/QuizManagement/src/MainPage/Homepage.fxml</file>
+            <file>file:/C:/Users/91934/Documents/NetBeansProjects/QuizManagement/src/quizmanagement/Main.java</file>
+            <file>file:/C:/Users/91934/Documents/NetBeansProjects/QuizManagement/src/Userdashboard/UserDashboardController.java</file>
+            <file>file:/C:/Users/91934/Documents/NetBeansProjects/QuizManagement/src/Loginquiz/FXMLController.java</file>
+            <file>file:/C:/Users/91934/Documents/NetBeansProjects/QuizManagement/src/Instructions/InstructionsController.java</file>
+            <file>file:/C:/Users/91934/Documents/NetBeansProjects/QuizManagement/src/LeaderBoard/Leaderboard.fxml</file>
+            <file>file:/C:/Users/91934/Documents/NetBeansProjects/QuizManagement/src/QuestionsBank/QuestionsbankController.java</file>
+            <file>file:/C:/Users/91934/Documents/NetBeansProjects/QuizManagement/src/LeaderBoard/LeaderboardController.java</file>
+            <file>file:/C:/Users/91934/Documents/NetBeansProjects/QuizManagement/src/MainPage/HomepageController.java</file>
+            <file>file:/C:/Users/91934/Documents/NetBeansProjects/QuizManagement/src/Manageusers/User.java</file>
+            <file>file:/C:/Users/91934/Documents/NetBeansProjects/QuizManagement/src/Manageusers/ManageuserController.java</file>
+            <file>file:/C:/Users/91934/Documents/NetBeansProjects/QuizManagement/src/Score/ScoreUser.fxml</file>
+            <file>file:/C:/Users/91934/Documents/NetBeansProjects/QuizManagement/src/util/DBConnection.java</file>
+            <file>file:/C:/Users/91934/Documents/NetBeansProjects/QuizManagement/src/Loginquiz/login.fxml</file>
+            <file>file:/C:/Users/91934/Documents/NetBeansProjects/QuizManagement/src/util/Session.java</file>
+            <file>file:/C:/Users/91934/Documents/NetBeansProjects/QuizManagement/src/quizmanagement/Registerpage.fxml</file>
+            <file>file:/C:/Users/91934/Documents/NetBeansProjects/QuizManagement/src/Userdashboard/UserDashboard.fxml</file>
+            <file>file:/C:/Users/91934/Documents/NetBeansProjects/QuizManagement/src/Score/ScoreUserController.java</file>
+            <file>file:/C:/Users/91934/Documents/NetBeansProjects/QuizManagement/src/QuizPages/Question.java</file>
+            <file>file:/C:/Users/91934/Documents/NetBeansProjects/QuizManagement/src/Adminpage/AdminpageController.java</file>
+            <file>file:/C:/Users/91934/Documents/NetBeansProjects/QuizManagement/src/QuizPages/quizPage.fxml</file>
+            <file>file:/C:/Users/91934/Documents/NetBeansProjects/QuizManagement/src/Manageusers/Manageuser.fxml</file>
+            <file>file:/C:/Users/91934/Documents/NetBeansProjects/QuizManagement/src/QuizPages/QuizPageController.java</file>
+            <file>file:/C:/Users/91934/Documents/NetBeansProjects/QuizManagement/src/Adminpage/Adminpage.fxml</file>
+            <file>file:/C:/Users/91934/Documents/NetBeansProjects/QuizManagement/src/Loginquiz/loginlogo.jpg</file>
+            <file>file:/C:/Users/91934/Documents/NetBeansProjects/QuizManagement/src/QuestionsBank/Questionsbank.fxml</file>
+            <file>file:/C:/Users/91934/Documents/NetBeansProjects/QuizManagement/src/quizmanagement/FXMLDocumentController.java</file>
+        </group>
+    </open-files>
+</project-private>
